@@ -4,11 +4,11 @@ $(document).ready(function () {
     document.addEventListener('visibilitychange', function () {
         if (document.hidden) {
             $('[rel="shortcut icon"]').attr('href', "/images/favicon.ico");
-            document.title = 'Anh yêu em!';
+            document.title = 'Trần minh ben';
             clearTimeout(titleTime);
         } else {
             $('[rel="shortcut icon"]').attr('href', "/images/favicon.ico");
-            document.title = 'thành_huyền' + OriginTitile;
+            document.title = 'Ben' + OriginTitile;
             titleTime = setTimeout(function () {
                 document.title = OriginTitile;
             }, 2000);

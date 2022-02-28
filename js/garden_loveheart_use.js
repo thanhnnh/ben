@@ -1,7 +1,7 @@
 var offsetX = $("#loveHeart").width() / 2;
 var offsetY = $("#loveHeart").height() / 2 - 55;
 var together = new Date();
-together.setFullYear(2018, 2, 16);
+together.setFullYear(2016, 4, 12);
 together.setHours(8); //地域时钟差
 together.setMinutes(0);
 together.setSeconds(0);
